@@ -1,0 +1,4914 @@
+[Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory Heap:
+][Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory Heap:
+][Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory Heap:
+][Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory Heap:
+][Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory Heap:
+]Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Execution stack:
+print(v)
+SymTable:
+v->-1
+Out:
+4
+3
+2
+1
+-1
+FileTable:
+Memory Heap:
+Thread 4
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->0
+Out:
+4
+4
+3
+2
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+SymTable:
+v->2
+Out:
+4
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 4
+Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory heap:

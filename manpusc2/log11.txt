@@ -1,0 +1,760 @@
+Thread 6
+Execution stack:
+(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+Ref(int) v1
+(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+Ref(int) v1
+(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))))
+SymTable:
+v1->(0,int)
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))))
+SymTable:
+v1->(0,int)
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+new(v1,20)
+(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))))
+SymTable:
+v1->(0,int)
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+new(v1,20)
+(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))))
+SymTable:
+v1->(0,int)
+Out:
+FileTable:
+Memory heap:
+LockTable:
+Thread 6
+Execution stack:
+(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))))
+SymTable:
+v1->(1,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))))
+SymTable:
+v1->(1,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+Ref(int) v2
+(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))
+SymTable:
+v1->(1,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+Ref(int) v2
+(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))
+SymTable:
+v1->(1,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))
+SymTable:
+v1->(1,int)
+v2->(0,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+(new(v2,30);(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))))
+SymTable:
+v1->(1,int)
+v2->(0,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+new(v2,30)
+(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))
+SymTable:
+v1->(1,int)
+v2->(0,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+new(v2,30)
+(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))
+SymTable:
+v1->(1,int)
+v2->(0,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+LockTable:
+Thread 6
+Execution stack:
+(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))
+SymTable:
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+Thread 6
+Execution stack:
+(newLock(x);(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))))
+SymTable:
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+Thread 6
+Execution stack:
+newLock(x)
+(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))
+SymTable:
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+Thread 6
+Execution stack:
+newLock(x)
+(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))
+SymTable:
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+Thread 6
+Execution stack:
+(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+(fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))));(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); ))))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))))
+(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+fork((fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); )))))
+(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+(fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); ))))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+(fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))));(print(rH(v1));(print(rH(v2)); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+(fork((lock(x);(wH(v1,null);(unlock(x); ))));(lock(x);(wH(v1,null);(unlock(x); ))))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))))
+(print(rH(v1));(print(rH(v2)); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+fork((lock(x);(wH(v1,null);(unlock(x); ))))
+(lock(x);(wH(v1,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+fork((fork(wH(v2,null));(wH(v2,null);(unlock(x); ))))
+(print(rH(v1));(print(rH(v2)); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+fork((lock(x);(wH(v1,null);(unlock(x); ))))
+(lock(x);(wH(v1,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+(print(rH(v1));(print(rH(v2)); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+(lock(x);(wH(v1,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 8
+Execution stack:
+(fork(wH(v2,null));(wH(v2,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 9
+Execution stack:
+(lock(x);(wH(v1,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+(print(rH(v1));(print(rH(v2)); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+(lock(x);(wH(v1,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 8
+Execution stack:
+(fork(wH(v2,null));(wH(v2,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 9
+Execution stack:
+(lock(x);(wH(v1,null);(unlock(x); )))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+print(rH(v1))
+(print(rH(v2)); )
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+lock(x)
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 8
+Execution stack:
+fork(wH(v2,null))
+(wH(v2,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 9
+Execution stack:
+lock(x)
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+print(rH(v1))
+(print(rH(v2)); )
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 7
+Execution stack:
+lock(x)
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 8
+Execution stack:
+fork(wH(v2,null))
+(wH(v2,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 9
+Execution stack:
+lock(x)
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : -1
+Thread 6
+Execution stack:
+(print(rH(v2)); )
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 7
+Execution stack:
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 8
+Execution stack:
+(wH(v2,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 9
+Execution stack:
+lock(x)
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 10
+Execution stack:
+wH(v2,null)
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 6
+Execution stack:
+(print(rH(v2)); )
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 7
+Execution stack:
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 8
+Execution stack:
+(wH(v2,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 9
+Execution stack:
+lock(x)
+(wH(v1,null);(unlock(x); ))
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7
+Thread 10
+Execution stack:
+wH(v2,null)
+SymTable:
+x->1
+v1->(1,int)
+v2->(2,int)
+Out:
+20
+FileTable:
+Memory heap:
+1->20
+2->30
+LockTable:
+1 : 7

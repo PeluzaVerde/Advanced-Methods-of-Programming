@@ -1,0 +1,2871 @@
+ID: 816277973
+
+~ EXECUTION STACK ~
+(Ref(int) a;(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+Ref(int) a|(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+Ref(int) a|(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+Ref(int) b|(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+Ref(int) b|(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+int v|(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+int v|(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+New{a, 0}|(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+New{a, 0}|(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+New{b, 0}|(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+New{b, 0}|(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+WriteHeap{a, 1}|(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+WriteHeap{a, 1}|(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+WriteHeap{b, 2}|(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+WriteHeap{b, 2}|(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 0
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=(ReadHeap{a}<ReadHeap{b})? 100: 200|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=(ReadHeap{a}<ReadHeap{b})? 100: 200|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+if(ReadHeap{a}<ReadHeap{b}) then(v=100) else(v=200)|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+if(ReadHeap{a}<ReadHeap{b}) then(v=100) else(v=200)|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=100|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=100|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+print(v)|(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+print(v)|(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+if(ReadHeap{b}-2>ReadHeap{a}) then(v=100) else(v=200)|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+if(ReadHeap{b}-2>ReadHeap{a}) then(v=100) else(v=200)|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+v=200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: 816277973
+
+~ EXECUTION STACK ~
+
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1679231764 -> int}
+a -> ReferenceValue{1083204169 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+200
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1679231764 -> 2
+1083204169 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(Ref(int) a;(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+Ref(int) a|(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+Ref(int) a|(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+Ref(int) b|(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+Ref(int) b|(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+int v|(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+int v|(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+New{a, 0}|(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+New{a, 0}|(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+New{b, 0}|(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+New{b, 0}|(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+WriteHeap{a, 1}|(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+WriteHeap{a, 1}|(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+WriteHeap{b, 2}|(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+WriteHeap{b, 2}|(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 0
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=(ReadHeap{a}<ReadHeap{b})? 100: 200|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=(ReadHeap{a}<ReadHeap{b})? 100: 200|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+if(ReadHeap{a}<ReadHeap{b}) then(v=100) else(v=200)|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+if(ReadHeap{a}<ReadHeap{b}) then(v=100) else(v=200)|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=100|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=100|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+print(v)|(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+print(v)|(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+if(ReadHeap{b}-2>ReadHeap{a}) then(v=100) else(v=200)|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+if(ReadHeap{b}-2>ReadHeap{a}) then(v=100) else(v=200)|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+v=200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -1556719288
+
+~ EXECUTION STACK ~
+
+~ SYMBOL TABLE ~
+b -> ReferenceValue{766301000 -> int}
+a -> ReferenceValue{2048300497 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+200
+
+~ FILE TABLE ~
+
+~ HEAP ~
+766301000 -> 2
+2048300497 -> 1
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(Ref(int) a;(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+Ref(int) a|(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+Ref(int) a|(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(Ref(int) b;(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+Ref(int) b|(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+Ref(int) b|(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(int v;(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+int v|(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+int v|(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(New{a, 0};(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+New{a, 0}|(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+New{a, 0}|(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{0 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(New{b, 0};(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+New{b, 0}|(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+New{b, 0}|(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{0 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(WriteHeap{a, 1};(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+WriteHeap{a, 1}|(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+WriteHeap{a, 1}|(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 0
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(WriteHeap{b, 2};(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+WriteHeap{b, 2}|(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+WriteHeap{b, 2}|(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 0
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{a}<ReadHeap{b})? 100: 200;(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=(ReadHeap{a}<ReadHeap{b})? 100: 200|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=(ReadHeap{a}<ReadHeap{b})? 100: 200|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+if(ReadHeap{a}<ReadHeap{b}) then(v=100) else(v=200)|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+if(ReadHeap{a}<ReadHeap{b}) then(v=100) else(v=200)|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=100|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=100|(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 0
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(print(v);(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v)))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+print(v)|(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+print(v)|(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+(v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200;print(v))|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=(ReadHeap{b}-2>ReadHeap{a})? 100: 200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+if(ReadHeap{b}-2>ReadHeap{a}) then(v=100) else(v=200)|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+if(ReadHeap{b}-2>ReadHeap{a}) then(v=100) else(v=200)|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+v=200|print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 100
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+print(v)|
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+
+ID: -2040436634
+
+~ EXECUTION STACK ~
+
+~ SYMBOL TABLE ~
+b -> ReferenceValue{1334651568 -> int}
+a -> ReferenceValue{1713318542 -> int}
+v -> 200
+
+~ OUTPUT ~
+100
+200
+
+~ FILE TABLE ~
+
+~ HEAP ~
+1713318542 -> 1
+1334651568 -> 2
+
+~ latch TABLE ~
+{}
+

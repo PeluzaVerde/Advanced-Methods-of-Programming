@@ -1,0 +1,1847 @@
+[Execution stack:
+(string varf;(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->0
+Out:
+FileTable:
+][Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->0
+Out:
+FileTable:
+][Execution stack:
+(string varf;(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->0
+Out:
+FileTable:
+][Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->0
+Out:
+FileTable:
+][Execution stack:
+(string varf;(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+][Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+][Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+][Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+][Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"
+][Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"
+][Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+varc->0
+Out:
+FileTable:
+"Test.in"
+][Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"Test.in"
+varc->0
+Out:
+FileTable:
+"Test.in"
+][Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+FileTable:
+"Test.in"
+][Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+FileTable:
+"Test.in"
+][Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+15
+FileTable:
+"Test.in"
+][Execution stack:
+readFile(varf,varc)
+(print(varc);closeFile(varf))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+15
+FileTable:
+"Test.in"
+][Execution stack:
+(print(varc);closeFile(varf))
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+FileTable:
+"Test.in"
+][Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+FileTable:
+"Test.in"
+][Execution stack:
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+"Test.in"
+][Execution stack:
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+][Execution stack:
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+]Thread 3
+Execution stack:
+(string varf;(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@694f9431
+Memory heap:
+Thread 3
+Execution stack:
+(string varf;(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+0
+FileTable:
+"Test.in"->java.io.BufferedReader@22927a81
+Memory heap:
+Thread 3
+Execution stack:
+(string varf;(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+string varf
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+(varf="Test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+varf="Test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 3
+Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+varc->0
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"Test.in"
+varc->0
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"Test.in"
+varc->0
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"Test.in"
+varc->0
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+readFile(varf,varc)
+(print(varc);closeFile(varf))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+readFile(varf,varc)
+(print(varc);closeFile(varf))
+SymTable:
+varf->"Test.in"
+varc->15
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(print(varc);closeFile(varf))
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+(print(varc);closeFile(varf))
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+closeFile(varf)
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+"Test.in"->java.io.BufferedReader@722c41f4
+Memory heap:
+Thread 3
+Execution stack:
+SymTable:
+varf->"Test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+Memory heap:

@@ -1,0 +1,281 @@
+[Execution stack:
+(int v;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(v=2;print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+][Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+][Execution stack:
+print(v)
+SymTable:
+v->2
+Out:
+FileTable:
+][Execution stack:
+SymTable:
+v->2
+Out:
+2
+FileTable:
+][Execution stack:
+(int v;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(v=2;print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+][Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+][Execution stack:
+print(v)
+SymTable:
+v->2
+Out:
+FileTable:
+][Execution stack:
+SymTable:
+v->2
+Out:
+2
+FileTable:
+]Execution stack:
+(int v;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory Heap:
+Thread 0
+Execution stack:
+(int v;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(v=2;print(v))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=2
+print(v)
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:

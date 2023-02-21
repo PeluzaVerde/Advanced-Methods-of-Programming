@@ -1,0 +1,181 @@
+
+Thread 2
+Execution stack:
+(bool a;(int v;(a=true;(if(a) then v=2 else v=3;print(v)))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+bool a
+(int v;(a=true;(if(a) then v=2 else v=3;print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+bool a
+(int v;(a=true;(if(a) then v=2 else v=3;print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+(int v;(a=true;(if(a) then v=2 else v=3;print(v))))
+SymTable:
+a->false
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+(int v;(a=true;(if(a) then v=2 else v=3;print(v))))
+SymTable:
+a->false
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+int v
+(a=true;(if(a) then v=2 else v=3;print(v)))
+SymTable:
+a->false
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+int v
+(a=true;(if(a) then v=2 else v=3;print(v)))
+SymTable:
+a->false
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+(a=true;(if(a) then v=2 else v=3;print(v)))
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+(a=true;(if(a) then v=2 else v=3;print(v)))
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+a=true
+(if(a) then v=2 else v=3;print(v))
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+a=true
+(if(a) then v=2 else v=3;print(v))
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+(if(a) then v=2 else v=3;print(v))
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+(if(a) then v=2 else v=3;print(v))
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+if(a) then v=2 else v=3
+print(v)
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+if(a) then v=2 else v=3
+print(v)
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+v=2
+print(v)
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+v=2
+print(v)
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+print(v)
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+print(v)
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+Memory heap:
+Thread 2
+Execution stack:
+SymTable:
+a->true
+v->2
+Out:
+2
+FileTable:
+Memory heap:

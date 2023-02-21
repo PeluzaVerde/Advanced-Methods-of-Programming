@@ -1,0 +1,649 @@
+[Execution stack:
+(int a;(int b;(a=2+3*5;(b=a+1;print(b)))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+a->0
+Out:
+FileTable:
+][Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+][Execution stack:
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+b->0
+Out:
+FileTable:
+][Execution stack:
+a=2+3*5
+(b=a+1;print(b))
+SymTable:
+a->0
+b->0
+Out:
+FileTable:
+][Execution stack:
+(b=a+1;print(b))
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+][Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+][Execution stack:
+print(b)
+SymTable:
+a->17
+b->18
+Out:
+FileTable:
+][Execution stack:
+SymTable:
+a->17
+b->18
+Out:
+18
+FileTable:
+][Execution stack:
+(int a;(int b;(a=2+3*5;(b=a+1;print(b)))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+][Execution stack:
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+a->0
+Out:
+FileTable:
+][Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+][Execution stack:
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+b->0
+Out:
+FileTable:
+][Execution stack:
+a=2+3*5
+(b=a+1;print(b))
+SymTable:
+a->0
+b->0
+Out:
+FileTable:
+][Execution stack:
+(b=a+1;print(b))
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+][Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+][Execution stack:
+print(b)
+SymTable:
+a->17
+b->18
+Out:
+FileTable:
+][Execution stack:
+SymTable:
+a->17
+b->18
+Out:
+18
+FileTable:
+]Execution stack:
+(int a;(int b;(a=2+3*5;(b=a+1;print(b)))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory Heap:
+Thread 1
+Execution stack:
+(int a;(int b;(a=2+3*5;(b=a+1;print(b)))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int a
+(int b;(a=2+3*5;(b=a+1;print(b))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+int b
+(a=2+3*5;(b=a+1;print(b)))
+SymTable:
+a->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:
+Thread 1
+Execution stack:
+b=a+1
+print(b)
+SymTable:
+a->17
+b->0
+Out:
+FileTable:
+Memory heap:

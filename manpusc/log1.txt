@@ -1,0 +1,3242 @@
+Thread 0
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+30
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+30
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+(int v;(v=4;(WhileStmt{exp=v>0};print(v))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=4;(WhileStmt{exp=v>0};print(v)))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=4
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(WhileStmt{exp=v>0};print(v))
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->4
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(print(v);v=v-1)
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=v-1
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+WhileStmt{exp=v>0}
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+print(v)
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+30
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+30
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+(string varf;(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+string varf
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+string varf
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);closeFile(varf))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);closeFile(varf))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(print(varc);closeFile(varf))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+(print(varc);closeFile(varf))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+print(varc)
+closeFile(varf)
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+closeFile(varf)
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+closeFile(varf)
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@57318aba
+Memory heap:
+Thread 0
+Execution stack:
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->50
+Out:
+15
+50
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(string varf;(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+string varf
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+string varf
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in";(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+varf="C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->""
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(openFile(varf);(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+openFile(varf)
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(int varc;(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+int varc
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf)))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->0
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(print(varc);(readFile(varf,varc);(print(varc);closeFile(varf))))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+print(varc)
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(readFile(varf,varc);(print(varc);closeFile(varf)))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+readFile(varf,varc)
+(print(varc);closeFile(varf))
+SymTable:
+varf->"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"
+varc->15
+Out:
+15
+FileTable:
+"C:\Users\HP\IdeaProjects\manpusc\src\main\java\test.in"->java.io.BufferedReader@30a7174d
+Memory heap:
+Thread 0
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(Ref(int) a;(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+Ref(int) a
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(v=10;(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+v=10
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->0
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(new(a,22);(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+new(a,22)
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(0,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(fork((wH(a,30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+fork((wH(a,30);(v=32;(print(v);print(rH(a))))))
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+(wH(a,30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 1
+Execution stack:
+wH(a,30)
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+FileTable:
+Memory heap:
+1->22
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(v=32;(print(v);print(rH(a))))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+FileTable:
+Memory heap:
+1->30
+Thread 0
+Execution stack:
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+v=32
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->10
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+(print(v);print(rH(a)))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(v)
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+print(rH(a))
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+FileTable:
+Memory heap:
+1->30
+Thread 1
+Execution stack:
+SymTable:
+a->(1,int)
+v->32
+Out:
+10
+30
+32
+30
+FileTable:
+Memory heap:
+1->30
